@@ -10,7 +10,7 @@ namespace AIE_Assessment_Exercise_04
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Input comma separated list of numbers");
+            Console.WriteLine("0,1,2,3");
             string lineOfText = Console.ReadLine();
             string[] values = lineOfText.Split(',');
 
@@ -23,6 +23,14 @@ namespace AIE_Assessment_Exercise_04
             // TODO:
             // Write a function that accepts the integer array 'numbers' and 
             // returns the sum of the array
+        }
+
+        static int Sum(int[] numbers)
+        {
+            for (int i = 0; i <= numbers.Length; i++)
+            {
+
+            }
         }
     }
 }

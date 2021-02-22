@@ -21,7 +21,13 @@ namespace AIE_Assessment_Exercise_01
             // TODO:
             // Write a function that will sum the two input floating point numbers
             // and return an integer
-            // Output your result to the console 
+            // Output your result to the console
+            Console.WriteLine(AddNumbers(firstNumber, secondNumber));
+        }
+        static float AddNumbers(float firstNumber, float secondNumber)
+        {
+            float sumOfNumbers = firstNumber + secondNumber;
+            return (int) sumOfNumbers;
         }
     }
 }
