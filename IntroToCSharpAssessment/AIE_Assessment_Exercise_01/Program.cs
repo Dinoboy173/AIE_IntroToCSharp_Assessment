@@ -24,7 +24,7 @@ namespace AIE_Assessment_Exercise_01
             // Output your result to the console
             Console.WriteLine(AddNumbers(firstNumber, secondNumber));
         }
-        static float AddNumbers(float firstNumber, float secondNumber)
+        static int AddNumbers(float firstNumber, float secondNumber)
         {
             float sumOfNumbers = firstNumber + secondNumber;
             return (int) sumOfNumbers;

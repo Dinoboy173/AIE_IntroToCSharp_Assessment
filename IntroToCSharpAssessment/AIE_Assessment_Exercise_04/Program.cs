@@ -20,6 +20,8 @@ namespace AIE_Assessment_Exercise_04
                 numbers[i] = Int32.Parse(values[i]);
             }
 
+            Console.WriteLine(Sum(numbers));
+
             // TODO:
             // Write a function that accepts the integer array 'numbers' and 
             // returns the sum of the array
@@ -27,10 +29,12 @@ namespace AIE_Assessment_Exercise_04
 
         static int Sum(int[] numbers)
         {
-            for (int i = 0; i <= numbers.Length; i++)
+            int sum = 0;
+            foreach (int i in numbers)
             {
-
+                sum += numbers[i]++;
             }
+            return sum;
         }
     }
 }
