@@ -10,7 +10,7 @@ namespace AIE_Assessment_Exercise_04
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("0,1,2,3");
+            Console.WriteLine("Input some numbers");
             string lineOfText = Console.ReadLine();
             string[] values = lineOfText.Split(',');
 
@@ -30,9 +30,10 @@ namespace AIE_Assessment_Exercise_04
         static int Sum(int[] numbers)
         {
             int sum = 0;
-            foreach (int i in numbers)
+
+            for (int i = 0; i < numbers.Length; i++)
             {
-                sum += numbers[i]++;
+                sum += numbers[i];
             }
             return sum;
         }
