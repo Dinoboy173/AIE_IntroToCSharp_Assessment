@@ -1,0 +1,9 @@
+﻿8
+sable
+hard
+miss
+easy
+pin
+destroy
+skip
+try
